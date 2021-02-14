@@ -173,6 +173,6 @@ def get_message():
 
 bot.remove_webhook()
 sleep(1)
-bot.set_webhook(url="https://reputation13bot.herokuapp.com/" % token)
+bot.set_webhook(url="https://reputation13bot.herokuapp.com/%s/" % token)
 
 server.run(host="0.0.0.0", port=int(os.environ.get('PORT', 80)), debug=True)
