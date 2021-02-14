@@ -28,7 +28,7 @@ welcome_user = """
 """
 
 # text for chat where bot don't work
-chat_error = "Sorry, but I don't work in this chat."
+chat_error = "Sorry, but I don't work in this chat.\nJoin - @SwiftiesWorld\nCreated By @TayLife"
 
 # karma text for user without username
 username_error = "Unfortunately, the user you thanked doesn't have a username, so I can't change his karma :("
