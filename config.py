@@ -12,11 +12,7 @@ admins = [183654961, 0, 0]  # users ids that can use /ban and /unban commands
 
 help_text = """
 Hey, I'm A reputation Bot.
-\nThere will be no further explanation, There will just be reputation.
-\nTo *add karma*, reply with the phrase "Thank you" to the message of the person who helped you.
-\nTo *reduce karma*, reply with the phrase "Minus" to the message of who you want to reduce karma.
-\nGroup - @SwiftiesWorld 
-\nCreated By @TayLIfe
+\nThere will be no further explanation, There will just be reputation.\nTo *add karma*, reply with the phrase "Thank you" to the message of the person who helped you.\nTo *reduce karma*, reply with the phrase "Minus" to the message of who you want to reduce karma.\nGroup - @SwiftiesWorld \nCreated By @TayLIfe
 
 \n/top20 - displays top 20 users with positive karma
 \n/untop20 - displays top 20 users with negative karma
