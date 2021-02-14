@@ -1,6 +1,6 @@
 token = "1623926295:AAF_m8xVKYql8fxEwxstEEviXYw31EVhD8Y"  # bot token
 bot_name = "@reputation13Bot"  # bot username
-chat_id = -1001307021868  # id of chat where bot should work
+chat_id = -1001307021868 -1001354707232  # id of chat where bot should work
 
 # DB settings
 database = "dc9smktko14646"
