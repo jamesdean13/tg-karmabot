@@ -67,30 +67,6 @@ def karma_plus(kp):
     else:
         bot.send_message(kp.chat.id, parse_mode='Markdown', text=chat_error)
         
-        
-        @bot.message_handler(regexp="Thx")
-def karma_plus(kp):
-    if kp.chat.id == chat_id:
-        username = kp.from_user.username
-        if kp.reply_to_message is None:
-            bot.send_message(kp.chat.id, parse_mode='Markdown', text=reply_to_like % username)
-        else:
-            if (kp.reply_to_message.from_user.username is None) or ():
-                bot.send_message(kp.chat.id, text=username_error)
-            else:
-                to_user = kp.reply_to_message.from_user.username
-                user_id = kp.reply_to_message.from_user.id
-                if to_user == bot_name:
-                    bot.send_message(kp.chat.id, text=like_to_bot % username)
-                elif to_user == username:
-                    bot.send_message(kp.chat.id, text=masturbate % username)
-                else:
-                    karma_model.add_karma(user_id, to_user)
-                    karma = karma_model.get_current_karma(user_id)
-                    bot.send_message(kp.chat.id, text=like_message % (to_user, to_user, karma))
-    else:
-        bot.send_message(kp.chat.id, parse_mode='Markdown', text=chat_error)
-
 
 @bot.message_handler(regexp="Minus")
 def karma_minus(km):
