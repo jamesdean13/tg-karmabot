@@ -3,10 +3,10 @@ bot_name = "@reputation13Bot"  # bot username
 chat_id = -1001307021868  # id of chat where bot should work
 
 # DB settings
-database = "dc9smktko14646"
-host = "ec2-34-198-31-223.compute-1.amazonaws.com"
-user = "sjpvclnxuoymzv"
-password = "3ecaf654d88ca1b7500a82debcdf6f6d945937daa8b9b2bb6a6663a82d4e9a26"
+database = "d7f4ql6o102f7p"
+host = "ec2-18-204-74-74.compute-1.amazonaws.com"
+user = "pwsxjcezdyejht"
+password = "f1d54f285fbc8b86ed41cc3008feed6f86476705eb5db616c5779d5bd2511b13"
 
 admins = [1649219671, 0, 0]  # users ids that can use /ban and /unban commands
 
