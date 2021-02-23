@@ -8,7 +8,7 @@ host = "ec2-34-198-31-223.compute-1.amazonaws.com"
 user = "sjpvclnxuoymzv"
 password = "3ecaf654d88ca1b7500a82debcdf6f6d945937daa8b9b2bb6a6663a82d4e9a26"
 
-admins = [183654961, 0, 0]  # users ids that can use /ban and /unban commands
+admins = [1649219671, 0, 0]  # users ids that can use /ban and /unban commands
 
 help_text = """
 Hey, I'm A reputation Bot.
